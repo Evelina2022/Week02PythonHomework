@@ -23,9 +23,11 @@ Example:
 Q1: 2 x 3 = ?; Student Answer: 6; Answer: 6; Status: CORRECT
 Q2: 6 x 8 = ?; Student Answer: 56; Answer: 48; Status: WRONG
 
-from random import  randint  
+# Soliution
 
-```def main():
+```from random import  randint  
+
+def main():
         correct= 0 
 
         questions = 0
@@ -53,5 +55,5 @@ from random import  randint
 
 
         print("The number of points received are", correct, "out of", questions)
-  ```main()
+    main()
 
